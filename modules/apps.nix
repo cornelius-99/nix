@@ -58,6 +58,7 @@
       "akiflow"
       "claude"
       "ghostty"
+      "ibkr"
     ];
   };
 }
