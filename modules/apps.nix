@@ -54,7 +54,7 @@
     # `brew install --cask`
     casks = [
       "anytype"
-      "nikitabobko/tap/aerospace"
+      # "nikitabobko/tap/aerospace"
       "akiflow"
       "claude"
       "ghostty"
