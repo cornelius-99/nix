@@ -19,5 +19,14 @@
     description = username;
   };
 
-  nix.settings.trusted-users = [username];
+  users.users."privat" = {
+    createHome = true;
+    description = "non-priviledged account";
+    home = "/Users/privat";
+    name = "privat";
+    uid = 502;
+  };
+  users.knownUsers = ["privat"];
+
+  nix.settings.trusted-users = [username "privat"];
 }

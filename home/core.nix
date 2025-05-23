@@ -2,10 +2,15 @@
 {
   home.packages = with pkgs; [
     # utils
-    ripgrep # recursively searches directories for a regex pattern
-    jq # A lightweight and flexible command-line JSON processor
     fzf # A command-line fuzzy finder
+    go
+    gopass
+    jq # A lightweight and flexible command-line JSON processor
+    kubectl
+    kubernetes-helm
     lazygit # TUI git client
+    presenterm
+    ripgrep # recursively searches directories for a regex pattern
     zellij
   ];
 
@@ -45,4 +50,5 @@
     #   enableBashIntegration = true;
     # };
   };
+
 }

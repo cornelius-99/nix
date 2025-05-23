@@ -38,7 +38,6 @@
     # For details, see https://github.com/mas-cli/mas
     masApps = {
       # TODO Feel free to add your favorite apps here.
-      # QQMusic = 595615424;
     };
 
     # taps = [
@@ -49,16 +48,17 @@
     # TODO Feel free to add your favorite apps here.
     brews = [
       # "curl" # no not install curl via nixpkgs, it's not working well on macOS!
+      "golangci-lint"
     ];
 
     # `brew install --cask`
     casks = [
       "anytype"
-      # "nikitabobko/tap/aerospace"
-      "akiflow"
       "claude"
       "ghostty"
-      "ibkr"
+      "headlamp"
+      "threema@beta"
+      "whatsapp"
     ];
   };
 }
